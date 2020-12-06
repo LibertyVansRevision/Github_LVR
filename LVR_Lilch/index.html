@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liberty Van</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+
+
+
+	<script type="text/javascript" src = "main.js"></script>
+</head>
+<body>
+	<div id = "page-wrap">
+		<header>
+			<div id="navbar">
+			  <div style="letter-spacing:2px;">
+			    <a href="index.html" id="logo">Liberty Van</a>
+			  </div>
+			  
+			  <div id="navbar-right">
+			    	<a class="active" href="index.html">Home</a>
+				    <a href="#" >About</a>
+				    <a href="#" >Map</a>
+				    <a href="gallery.html" >Gallery</a>
+				    <a href="blog.html">Blog</a>
+			  </div> 
+			</div>  		
+		</header>
+					 
+		<div class="container1">
+			<img src = "https://images.unsplash.com/photo-1530747656683-c940eb6472d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="holding" style="width: 60%;">
+			<h1 class="centered" >ELCOME</h1>
+			<div class="text-block">
+			    <p id = "para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  		</div>
+		</div>
+
+		<div class="container2">
+			<img src="https://chriscrawfordphoto.com/cw4/images/product_full/liberty-van-1.jpg" alt="van" style="width: 90%, height: 50%;">
+			<div class="content">
+				<h2> The Vans </h2>
+				<p id = "para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<h2>Hear From Our Supporters</h2>
+		<div class="row">
+		  <div class="column">
+		    <div class="card">
+		      <h3>Person 1</h3>
+		      <img class = "avatar" src="https://liketherazor.com/wp-content/uploads/2019/12/WEB-VERSION-Chris-Gillett-Houston-Headshot-Photographer-34.jpg" alt="person1" style="width:100%;">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    consequat. </p>
+		    </div>
+		  </div>
+
+		  <div class="column">
+		    <div class="card">
+		      <h3>Person 2</h3>
+		      <img class = "avatar" src="https://liketherazor.com/wp-content/uploads/2019/12/WEB-VERSION-Chris-Gillett-Houston-Headshot-Photographer-6.jpg" alt="person1" style="width:100%;">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    consequat. </p>
+		    </div>
+		  </div>
+		  
+		  <div class="column">
+		    <div class="card">
+		      <h3>Person 3</h3>
+		      <img class = "avatar" src="https://liketherazor.com/wp-content/uploads/2019/12/WEB-VERSION-Chris-Gillett-Houston-Headshot-Photographer-49.jpg" alt="person1" style="width:100%;">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    consequat. </p>
+		    </div>
+		  </div>
+		</div>
+
+		  <button class="button" id = "discussion">Discussion Board</button>
+		  
+
+
+
+		  <br> 
+		  <br> 
+		  <br> 
+
+
+		  <h2> The Vans </h2>
+
+		  <div class="row">
+			  <div class="column">
+			    <div class="card">
+
+			      <img class="cards2" src="https://oeconline.org/wp-content/uploads/2017/02/SignPetition.jpg" alt="signing" style="width:100%;">
+			    </div>
+			    <div class="column-button">
+			    <button class="button" onclick="openForm()" type="button">Sign Our Petition</button>
+				</div>
+
+
+			    <div class="form-popup" id="myForm">
+				  <form action="/action_page.php" class="form-container">
+				    <h1>Login</h1>
+
+				    <label for="psw"><b>Name</b></label>
+				    <input type="password" placeholder="Enter Name" name="psw" required>
+
+				    <label for="email"><b>Email</b></label>
+				    <input type="text" placeholder="Enter Email" name="email" required>
+
+				    <label for="zipcode"><b>Zip Code</b></label>
+				    <input type="text" placeholder="Enter Zip Code" name="zipcode" required>
+
+
+				    <input type="checkbox" name="terms" value="terms">
+  					<label for="terms">I agree to terms and conditions</label><br>
+  					<br>
+
+				    
+
+				    <button type="submit" class="btn">Sign this Petition</button>
+				    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+
+
+				  </form>
+				</div>
+			  </div>
+
+
+
+
+
+
+			  <div class="column">
+			    <div class="card">
+			      <img class="cards2" src="https://chriscrawfordphoto.com/cw4/images/product_full/liberty-van-3.jpg" alt="galleryT" style="width: 100%;">
+			    </div>
+			    
+			    <div class="column-button">
+			    <button class="button" onclick="location.href='gallery.html'" type="button">View The Gallery</button>
+				</div>
+			  
+			  </div>
+			  
+			  <div class="column">
+			    <div class="card">
+
+			      <img class="cards2" src="https://bloximages.chicago2.vip.townnews.com/cumberlink.com/content/tncms/assets/v3/editorial/a/9a/a9a78522-f0af-11e2-b8dd-001a4bcf887a/51e99de315d55.image.jpg" alt ="blogT" style="width: 100%;">
+			    </div>
+			    <div class="column-button">
+			    <button class="button" onclick="location.href='blog.html'" type="button">Read Our Blog</button>
+				</div>
+			  </div>
+			  </div>
+
+			</div>
+
+		  <br> 
+		  <br> 
+		  <br> 
+		  <br> 
+		  <br> 
+
+
+		<footer>
+			<div id = "footer" class = "clearfix">
+
+				<div class="footerbox">
+
+					<h2 class="footerlogo">Liberty Van</h2>
+				
+					<table class="footer-table">
+						<tr>
+						<th>
+						<ul class="footer-links">
+							<li>About</li>
+							<li>Map</li>
+							<li>Gallery</li>
+							<li>Blog</li>
+						</ul>
+						</th>
+						<th>
+						<ul class="footer-links">
+							<li>Contact</li>
+							<li>FAQ</li>
+							<li>Donate</li>
+							<li>Tour Dates</li>
+						</ul>
+						</th>
+						<th id="socialmedia">
+						<img class="socialicon" src="images/fb.png">
+						<img class="socialicon" src="images/twitter.png">
+						<img class="socialicon" src="images/instagram.png">
+						</th>
+						</tr>
+					</table>	
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+
+</body>
